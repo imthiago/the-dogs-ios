@@ -10,6 +10,7 @@
 		AF08789F27603B8100DCE58E /* TDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08789E27603B8100DCE58E /* TDTabBarController.swift */; };
 		AF0878A227603C8000DCE58E /* BreedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0878A127603C8000DCE58E /* BreedListViewController.swift */; };
 		AF0878A427603C9200DCE58E /* SearchBreedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0878A327603C9200DCE58E /* SearchBreedViewController.swift */; };
+		AF0878A92760411E00DCE58E /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0878A82760411E00DCE58E /* ApiClient.swift */; };
 		AF60204A2760326F00D8CAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6020492760326F00D8CAC1 /* AppDelegate.swift */; };
 		AF60204C2760326F00D8CAC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60204B2760326F00D8CAC1 /* SceneDelegate.swift */; };
 		AF6020532760327200D8CAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6020522760327200D8CAC1 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		AF08789E27603B8100DCE58E /* TDTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDTabBarController.swift; sourceTree = "<group>"; };
 		AF0878A127603C8000DCE58E /* BreedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListViewController.swift; sourceTree = "<group>"; };
 		AF0878A327603C9200DCE58E /* SearchBreedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBreedViewController.swift; sourceTree = "<group>"; };
+		AF0878A82760411E00DCE58E /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		AF6020462760326F00D8CAC1 /* TheDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6020492760326F00D8CAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF60204B2760326F00D8CAC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,22 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		AF0878A5276040FF00DCE58E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AF0878A62760410300DCE58E /* Networking */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		AF0878A62760410300DCE58E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AF0878A82760411E00DCE58E /* ApiClient.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 		AF60203D2760326F00D8CAC1 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +129,7 @@
 		AF6020482760326F00D8CAC1 /* TheDogs */ = {
 			isa = PBXGroup;
 			children = (
+				AF0878A5276040FF00DCE58E /* Utils */,
 				AF08789C27603B4E00DCE58E /* CustomViews */,
 				AF08789B27603A3700DCE58E /* Support */,
 			);
@@ -245,6 +264,7 @@
 				AF0878A427603C9200DCE58E /* SearchBreedViewController.swift in Sources */,
 				AF60204A2760326F00D8CAC1 /* AppDelegate.swift in Sources */,
 				AF60204C2760326F00D8CAC1 /* SceneDelegate.swift in Sources */,
+				AF0878A92760411E00DCE58E /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
