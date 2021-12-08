@@ -1,0 +1,6 @@
+
+*.lock
+Pods/
+*.pbxproj
+*.xcworkspacedata
+.DS_Store
