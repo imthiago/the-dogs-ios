@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF08789F27603B8100DCE58E /* TDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08789E27603B8100DCE58E /* TDTabBarController.swift */; };
+		AF0878A227603C8000DCE58E /* BreedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0878A127603C8000DCE58E /* BreedListViewController.swift */; };
+		AF0878A427603C9200DCE58E /* SearchBreedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0878A327603C9200DCE58E /* SearchBreedViewController.swift */; };
 		AF60204A2760326F00D8CAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6020492760326F00D8CAC1 /* AppDelegate.swift */; };
 		AF60204C2760326F00D8CAC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60204B2760326F00D8CAC1 /* SceneDelegate.swift */; };
-		AF60204E2760326F00D8CAC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60204D2760326F00D8CAC1 /* ViewController.swift */; };
-		AF6020512760326F00D8CAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF60204F2760326F00D8CAC1 /* Main.storyboard */; };
 		AF6020532760327200D8CAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6020522760327200D8CAC1 /* Assets.xcassets */; };
 		AF6020562760327200D8CAC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6020542760327200D8CAC1 /* LaunchScreen.storyboard */; };
 		EBD09600911B35CB8699E293 /* Pods_TheDogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7E5D199CFE4443E392238F /* Pods_TheDogs.framework */; };
@@ -20,11 +21,12 @@
 		0135FE2C7B2DAC96275D8BF3 /* Pods-TheDogs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheDogs.debug.xcconfig"; path = "Target Support Files/Pods-TheDogs/Pods-TheDogs.debug.xcconfig"; sourceTree = "<group>"; };
 		5E7E5D199CFE4443E392238F /* Pods_TheDogs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheDogs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5F8297A9AF7258362A9781 /* Pods-TheDogs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheDogs.release.xcconfig"; path = "Target Support Files/Pods-TheDogs/Pods-TheDogs.release.xcconfig"; sourceTree = "<group>"; };
+		AF08789E27603B8100DCE58E /* TDTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDTabBarController.swift; sourceTree = "<group>"; };
+		AF0878A127603C8000DCE58E /* BreedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListViewController.swift; sourceTree = "<group>"; };
+		AF0878A327603C9200DCE58E /* SearchBreedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBreedViewController.swift; sourceTree = "<group>"; };
 		AF6020462760326F00D8CAC1 /* TheDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6020492760326F00D8CAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF60204B2760326F00D8CAC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF60204D2760326F00D8CAC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF6020502760326F00D8CAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF6020522760327200D8CAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6020552760327200D8CAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF6020572760327200D8CAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +52,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AF08789B27603A3700DCE58E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				AF6020492760326F00D8CAC1 /* AppDelegate.swift */,
+				AF60204B2760326F00D8CAC1 /* SceneDelegate.swift */,
+				AF6020522760327200D8CAC1 /* Assets.xcassets */,
+				AF6020542760327200D8CAC1 /* LaunchScreen.storyboard */,
+				AF6020572760327200D8CAC1 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		AF08789C27603B4E00DCE58E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				AF0878A027603C4800DCE58E /* ViewControllers */,
+				AF08789D27603B5400DCE58E /* TabBarControllers */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		AF08789D27603B5400DCE58E /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF08789E27603B8100DCE58E /* TDTabBarController.swift */,
+			);
+			name = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		AF0878A027603C4800DCE58E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF0878A127603C8000DCE58E /* BreedListViewController.swift */,
+				AF0878A327603C9200DCE58E /* SearchBreedViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		AF60203D2760326F00D8CAC1 = {
 			isa = PBXGroup;
 			children = (
@@ -71,13 +111,8 @@
 		AF6020482760326F00D8CAC1 /* TheDogs */ = {
 			isa = PBXGroup;
 			children = (
-				AF6020492760326F00D8CAC1 /* AppDelegate.swift */,
-				AF60204B2760326F00D8CAC1 /* SceneDelegate.swift */,
-				AF60204D2760326F00D8CAC1 /* ViewController.swift */,
-				AF60204F2760326F00D8CAC1 /* Main.storyboard */,
-				AF6020522760327200D8CAC1 /* Assets.xcassets */,
-				AF6020542760327200D8CAC1 /* LaunchScreen.storyboard */,
-				AF6020572760327200D8CAC1 /* Info.plist */,
+				AF08789C27603B4E00DCE58E /* CustomViews */,
+				AF08789B27603A3700DCE58E /* Support */,
 			);
 			path = TheDogs;
 			sourceTree = "<group>";
@@ -153,7 +188,6 @@
 			files = (
 				AF6020562760327200D8CAC1 /* LaunchScreen.storyboard in Resources */,
 				AF6020532760327200D8CAC1 /* Assets.xcassets in Resources */,
-				AF6020512760326F00D8CAC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF60204E2760326F00D8CAC1 /* ViewController.swift in Sources */,
+				AF08789F27603B8100DCE58E /* TDTabBarController.swift in Sources */,
+				AF0878A227603C8000DCE58E /* BreedListViewController.swift in Sources */,
+				AF0878A427603C9200DCE58E /* SearchBreedViewController.swift in Sources */,
 				AF60204A2760326F00D8CAC1 /* AppDelegate.swift in Sources */,
 				AF60204C2760326F00D8CAC1 /* SceneDelegate.swift in Sources */,
 			);
@@ -215,14 +251,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF60204F2760326F00D8CAC1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF6020502760326F00D8CAC1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF6020542760327200D8CAC1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,7 +391,6 @@
 				INFOPLIST_FILE = TheDogs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -393,7 +420,6 @@
 				INFOPLIST_FILE = TheDogs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
