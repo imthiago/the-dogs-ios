@@ -15,6 +15,7 @@
 		AF60204C2760326F00D8CAC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60204B2760326F00D8CAC1 /* SceneDelegate.swift */; };
 		AF6020532760327200D8CAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF6020522760327200D8CAC1 /* Assets.xcassets */; };
 		AF6020562760327200D8CAC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF6020542760327200D8CAC1 /* LaunchScreen.storyboard */; };
+		AFA86C7F276126CB00558A24 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA86C7E276126CB00558A24 /* Enviroment.swift */; };
 		EBD09600911B35CB8699E293 /* Pods_TheDogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7E5D199CFE4443E392238F /* Pods_TheDogs.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		AF6020522760327200D8CAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF6020552760327200D8CAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF6020572760327200D8CAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA86C7E276126CB00558A24 /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				AF6020522760327200D8CAC1 /* Assets.xcassets */,
 				AF6020542760327200D8CAC1 /* LaunchScreen.storyboard */,
 				AF6020572760327200D8CAC1 /* Info.plist */,
+				AFA86C7E276126CB00558A24 /* Enviroment.swift */,
 			);
 			name = Support;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				AF0878A227603C8000DCE58E /* BreedListViewController.swift in Sources */,
 				AF0878A427603C9200DCE58E /* SearchBreedViewController.swift in Sources */,
 				AF60204A2760326F00D8CAC1 /* AppDelegate.swift in Sources */,
+				AFA86C7F276126CB00558A24 /* Enviroment.swift in Sources */,
 				AF60204C2760326F00D8CAC1 /* SceneDelegate.swift in Sources */,
 				AF0878A92760411E00DCE58E /* ApiClient.swift in Sources */,
 			);
